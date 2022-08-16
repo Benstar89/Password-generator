@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class = "main">
+        <div class = "inner-main">
+                <h1>Password Genrator</h1>
+            <div class = "input-button">
+                <input type = "text" class = "password-input"/>
+                <button class = "copy-btn"><img src = "./svg/copy.svg"></button>
+            </div>
+            <div class = "password-length-part">
+                <p>Password length</p>
+                <input type="text" class="password-length-input">
+            </div>
+            <div class = "password-attributs">
+                <div class="flex-option">
+                    Include Uppercase Letters <input type="checkbox" class = "useUpper">
+                </div>
+                <div class="flex-option">
+                    Include Lowercase Letters<input type="checkbox" class = "useLower">
+                </div>
+                <div class="flex-option">
+                    Include Numbers <input type="checkbox" class = "useNumber">
+                </div>
+                <div class="flex-option">
+                    Include Symbols <input type="checkbox"  class = "useSymbols">
+                </div>
+            </div>
+            <div class = "last-btn">
+                <button class = "generateBtn">Generate Password</button>
+            </div>
+        </div>     
+    </div>
+    <script src = "js.js"></script>
+</body>
+</html>
